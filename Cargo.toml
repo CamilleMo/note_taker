@@ -1,0 +1,12 @@
+[package]
+name = "note"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0.0"
+rusqlite = { version = "0.26.0", features = ["bundled"] }
+dirs = "3.0.2"
+prettytable-rs = "0.8.0"
